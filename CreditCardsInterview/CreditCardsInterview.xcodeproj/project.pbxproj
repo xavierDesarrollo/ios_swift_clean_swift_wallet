@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000021 /* AppDelegate.swift */; };
+		A00000000000000000000002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000022 /* SceneDelegate.swift */; };
+		A00000000000000000000003 /* CreditCardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000023 /* CreditCardEntity.swift */; };
+		A00000000000000000000004 /* credit_cards.json in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000024 /* credit_cards.json */; };
+		A00000000000000000000005 /* CreditCardsListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000025 /* CreditCardsListModels.swift */; };
+		A00000000000000000000006 /* CreditCardsListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000026 /* CreditCardsListWorker.swift */; };
+		A00000000000000000000007 /* CreditCardsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000027 /* CreditCardsListInteractor.swift */; };
+		A00000000000000000000008 /* CreditCardsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000028 /* CreditCardsListPresenter.swift */; };
+		A00000000000000000000009 /* CreditCardsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000029 /* CreditCardsListRouter.swift */; };
+		A0000000000000000000000A /* CreditCardsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000002A /* CreditCardsListViewController.swift */; };
+		A0000000000000000000000B /* CreditCardDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000002B /* CreditCardDetailModels.swift */; };
+		A0000000000000000000000C /* CreditCardDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000002C /* CreditCardDetailInteractor.swift */; };
+		A0000000000000000000000D /* CreditCardDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000002D /* CreditCardDetailPresenter.swift */; };
+		A0000000000000000000000E /* CreditCardDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000002E /* CreditCardDetailRouter.swift */; };
+		A0000000000000000000000F /* CreditCardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000002F /* CreditCardDetailViewController.swift */; };
+		F09C4C582F6549A400251980 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C4C572F65499B00251980 /* CardType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000010 /* CreditCardsInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardsInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00000000000000000000022 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A00000000000000000000023 /* CreditCardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardEntity.swift; sourceTree = "<group>"; };
+		A00000000000000000000024 /* credit_cards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = credit_cards.json; sourceTree = "<group>"; };
+		A00000000000000000000025 /* CreditCardsListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsListModels.swift; sourceTree = "<group>"; };
+		A00000000000000000000026 /* CreditCardsListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsListWorker.swift; sourceTree = "<group>"; };
+		A00000000000000000000027 /* CreditCardsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsListInteractor.swift; sourceTree = "<group>"; };
+		A00000000000000000000028 /* CreditCardsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsListPresenter.swift; sourceTree = "<group>"; };
+		A00000000000000000000029 /* CreditCardsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsListRouter.swift; sourceTree = "<group>"; };
+		A0000000000000000000002A /* CreditCardsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsListViewController.swift; sourceTree = "<group>"; };
+		A0000000000000000000002B /* CreditCardDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDetailModels.swift; sourceTree = "<group>"; };
+		A0000000000000000000002C /* CreditCardDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDetailInteractor.swift; sourceTree = "<group>"; };
+		A0000000000000000000002D /* CreditCardDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDetailPresenter.swift; sourceTree = "<group>"; };
+		A0000000000000000000002E /* CreditCardDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDetailRouter.swift; sourceTree = "<group>"; };
+		A0000000000000000000002F /* CreditCardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDetailViewController.swift; sourceTree = "<group>"; };
+		A00000000000000000000030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09C4C572F65499B00251980 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000012 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000013 /* CreditCardsInterview */,
+				A00000000000000000000014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000013 /* CreditCardsInterview */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000015 /* App */,
+				A00000000000000000000016 /* Common */,
+				A00000000000000000000017 /* Modules */,
+				A00000000000000000000030 /* Info.plist */,
+			);
+			path = CreditCardsInterview;
+			sourceTree = SOURCE_ROOT;
+		};
+		A00000000000000000000014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000010 /* CreditCardsInterview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000015 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000021 /* AppDelegate.swift */,
+				A00000000000000000000022 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000016 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000018 /* Entities */,
+				A00000000000000000000019 /* Resources */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000017 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000001A /* CreditCardsList */,
+				A0000000000000000000001B /* CreditCardDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000018 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F09C4C572F65499B00251980 /* CardType.swift */,
+				A00000000000000000000023 /* CreditCardEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000019 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000024 /* credit_cards.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0000000000000000000001A /* CreditCardsList */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000025 /* CreditCardsListModels.swift */,
+				A00000000000000000000026 /* CreditCardsListWorker.swift */,
+				A00000000000000000000027 /* CreditCardsListInteractor.swift */,
+				A00000000000000000000028 /* CreditCardsListPresenter.swift */,
+				A00000000000000000000029 /* CreditCardsListRouter.swift */,
+				A0000000000000000000002A /* CreditCardsListViewController.swift */,
+			);
+			path = CreditCardsList;
+			sourceTree = "<group>";
+		};
+		A0000000000000000000001B /* CreditCardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000002B /* CreditCardDetailModels.swift */,
+				A0000000000000000000002C /* CreditCardDetailInteractor.swift */,
+				A0000000000000000000002D /* CreditCardDetailPresenter.swift */,
+				A0000000000000000000002E /* CreditCardDetailRouter.swift */,
+				A0000000000000000000002F /* CreditCardDetailViewController.swift */,
+			);
+			path = CreditCardDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0000000000000000000001C /* CreditCardsInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000035 /* Build configuration list for PBXNativeTarget "CreditCardsInterview" */;
+			buildPhases = (
+				A0000000000000000000001D /* Sources */,
+				A00000000000000000000011 /* Frameworks */,
+				A0000000000000000000001E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardsInterview;
+			productName = CreditCardsInterview;
+			productReference = A00000000000000000000010 /* CreditCardsInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0000000000000000000001F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A0000000000000000000001C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000033 /* Build configuration list for PBXProject "CreditCardsInterview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000012;
+			productRefGroup = A00000000000000000000014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0000000000000000000001C /* CreditCardsInterview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0000000000000000000001E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000004 /* credit_cards.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0000000000000000000001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001 /* AppDelegate.swift in Sources */,
+				A00000000000000000000002 /* SceneDelegate.swift in Sources */,
+				A00000000000000000000003 /* CreditCardEntity.swift in Sources */,
+				A00000000000000000000005 /* CreditCardsListModels.swift in Sources */,
+				A00000000000000000000006 /* CreditCardsListWorker.swift in Sources */,
+				A00000000000000000000007 /* CreditCardsListInteractor.swift in Sources */,
+				A00000000000000000000008 /* CreditCardsListPresenter.swift in Sources */,
+				A00000000000000000000009 /* CreditCardsListRouter.swift in Sources */,
+				F09C4C582F6549A400251980 /* CardType.swift in Sources */,
+				A0000000000000000000000A /* CreditCardsListViewController.swift in Sources */,
+				A0000000000000000000000B /* CreditCardDetailModels.swift in Sources */,
+				A0000000000000000000000C /* CreditCardDetailInteractor.swift in Sources */,
+				A0000000000000000000000D /* CreditCardDetailPresenter.swift in Sources */,
+				A0000000000000000000000E /* CreditCardDetailRouter.swift in Sources */,
+				A0000000000000000000000F /* CreditCardDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00000000000000000000038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CreditCardsInterview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CreditCardsInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CreditCardsInterview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CreditCardsInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000033 /* Build configuration list for PBXProject "CreditCardsInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000036 /* Debug */,
+				A00000000000000000000037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000035 /* Build configuration list for PBXNativeTarget "CreditCardsInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000038 /* Debug */,
+				A00000000000000000000039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0000000000000000000001F /* Project object */;
+}

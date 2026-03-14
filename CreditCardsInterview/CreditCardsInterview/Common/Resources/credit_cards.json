@@ -1,0 +1,107 @@
+[
+  {
+    "card_id": "1",
+    "card_name": "Visa Gold",
+    "card_number": "**** 4821",
+    "available_amount": 2350.45,
+    "is_blocked": false
+  },
+  {
+    "card_id": "2",
+    "card_name": "Mastercard Black",
+    "card_number": "**** 9183",
+    "available_amount": 10450.00,
+    "is_blocked": false
+  },
+  {
+    "card_id": "3",
+    "card_name": "Amex Platinum",
+    "card_number": "**** 6732",
+    "available_amount": 520.75,
+    "is_blocked": false
+  },
+  {
+    "card_id": "4",
+    "card_name": "Visa Platinum",
+    "card_number": "**** 1159",
+    "available_amount": 7800.20,
+    "is_blocked": true
+  },
+  {
+    "card_id": "5",
+    "card_name": "Mastercard Gold",
+    "card_number": "**** 2247",
+    "available_amount": 3150.10,
+    "is_blocked": false
+  },
+  {
+    "card_id": "6",
+    "card_name": "Amex Gold",
+    "card_number": "**** 6634",
+    "available_amount": 890.55,
+    "is_blocked": false
+  },
+  {
+    "card_id": "7",
+    "card_name": "Visa Infinite",
+    "card_number": "**** 3098",
+    "available_amount": 15420.75,
+    "is_blocked": false
+  },
+  {
+    "card_id": "8",
+    "card_name": "Mastercard Platinum",
+    "card_number": "**** 4471",
+    "available_amount": 6200.00,
+    "is_blocked": true
+  },
+  {
+    "card_id": "9",
+    "card_name": "Amex Blue",
+    "card_number": "**** 7792",
+    "available_amount": 1340.30,
+    "is_blocked": false
+  },
+  {
+    "card_id": "10",
+    "card_name": "Visa Signature",
+    "card_number": "**** 5526",
+    "available_amount": 9750.60,
+    "is_blocked": false
+  },
+  {
+    "card_id": "11",
+    "card_name": "Mastercard World",
+    "card_number": "**** 8931",
+    "available_amount": 4320.15,
+    "is_blocked": false
+  },
+  {
+    "card_id": "12",
+    "card_name": "Amex Green",
+    "card_number": "**** 6124",
+    "available_amount": 760.00,
+    "is_blocked": true
+  },
+  {
+    "card_id": "13",
+    "card_name": "Visa Classic",
+    "card_number": "**** 3409",
+    "available_amount": 2150.80,
+    "is_blocked": false
+  },
+  {
+    "card_id": "14",
+    "card_name": "Mastercard Titanium",
+    "card_number": "**** 1298",
+    "available_amount": 6850.45,
+    "is_blocked": false
+  },
+  {
+    "card_id": "15",
+    "card_name": "Amex Platinum",
+    "card_number": "**** 5017",
+    "available_amount": 1120.95,
+    "is_blocked": false
+  }
+]
